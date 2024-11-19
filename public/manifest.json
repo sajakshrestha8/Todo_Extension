@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Todo Work",
+    "version": "1.0",
+    "description": "Extension that can be used to be deciplined",
+    "action": {
+      "default_popup": "./index.html"
+    },
+    "permissions": ["activeTab"],
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*"
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+  }
